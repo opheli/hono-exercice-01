@@ -1,0 +1,124 @@
+// Variables
+@import "variables";
+
+body {
+  background-color: $dark-blue;
+
+  font-family: degular,sans-serif;
+  font-weight: 700%;
+  font-style: normal;
+}
+
+
+/* Images et logo en haut*/
+
+.image-top {
+  display: flex;
+  justify-content: space-between;
+  
+  .image-top-right {
+    margin: 2% 2% 0% 0%;
+  }
+
+  .image-top-left {
+    margin: -0.5% 0% 0% -0.5%;   
+  }
+  
+  .image-top-middle-logo {
+    align-self: center;
+    margin-top: 5%;
+    margin-right: 24%; 
+  } 
+}
+
+
+/* Images et texte au centre*/
+
+.box-middle {
+  position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%);
+  width: 90%;
+  height: 310px;
+
+  .middle {
+    position: absolute;
+  }
+
+  .image-txt-middle-star-2 {
+    top: -3.8%;
+    left: 18%;
+  }
+  
+  .image-txt-middle-txt{
+    top: -20%;
+    left: 21%;
+    color: $light-blue;
+    font-size: 420%;
+    text-align: center;
+  } 
+
+  .image-txt-middle-star-3{
+    top: 49%;
+    right: 15%;
+  }
+}
+ 
+
+/* Images et texte en bas*/
+
+.box-end {
+  position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%);
+  width: 50%;
+  height: 200px;
+
+  .end-ellipse {
+    position:absolute;
+  }
+
+  .rectangle-dark-orange {
+    top: 35%;
+    left: 12%;
+    width: 620px;
+    height: 88px;
+    background: $dark-orange;
+    transform: rotate(358deg); 
+  }
+
+  .rectangle-light-orange {
+    top: 26%;
+    left: 15%;
+    width: 580px;
+    height: 83px;
+    background: $light-orange;
+    transform: rotate(356deg);
+  }
+
+  .txt-end {
+    top: 20%;
+    left: 20%;
+    font-family: degular,sans-serif;
+    font-size: 33px;
+    font-weight: 300;
+    font-style: normal;
+    color: $white;
+    transform: rotate(356deg);
+  }
+
+  .ellipse {
+    top: 49%;
+    left: 2%;
+  }
+
+}
+
+
+
+
+
+
+
