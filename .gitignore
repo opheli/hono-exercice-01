@@ -75,8 +75,6 @@ npm-debug.log
 src/.gulp
 src/faviconData.json
 
-# Distribution
-dist/
 
 # Yarn
 src/yarn-error.log
